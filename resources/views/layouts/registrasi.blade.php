@@ -13,7 +13,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Title Page-->
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Registrasi') }}</title>
 
     <!-- Icons font CSS-->
     <link rel="icon" type="image/png" href="{{url('assets/images/logoumb.png')}}">
