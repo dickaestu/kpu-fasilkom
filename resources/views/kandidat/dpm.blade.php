@@ -51,7 +51,7 @@
                                         <li>{{ $item->jurusan }}</li>
                                     </ul>
                                 </div>
-                                <p class="mb-1">Visi: <span>{!! $item->visi !!}</span></p>
+                                <p class="mb-2">Visi: <span>{!! $item->visi !!}</span></p>
                                  <p class="">Misi: <span>{!! $item->misi !!}</span></p>
                             </div>
 
