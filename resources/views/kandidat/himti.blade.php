@@ -51,8 +51,8 @@
                                         <li>{{ $item->jurusan }}</li>
                                     </ul>
                                 </div>
-                                 <p class="mb-2">Visi: <span>{!! $item->visi !!}</span></p>
-                                 <p class="">Misi: <span>{!! $item->misi !!}</span></p>
+                                 <p class="">Visi: <span>{!! $item->visi !!}</span></p>
+                                 <p class="mt-3">Misi: <span>{!! $item->misi !!}</span></p>
                             </div>
 
                             <div class="single-shortcode-btn brown-button large-button mb-30">
