@@ -54,7 +54,7 @@
                                 <div class="value">
                                     <div class="input-group">
                                         <input id="bukti_ktm" class=" @error('bukti_ktm') is-invalid @enderror" type="file" name="bukti_ktm" required>
-                                        <small>Max: 5mb, Format: jpg,jpeg,png</small> <br>
+                                        <small>Max: 1mb, Format: jpg,jpeg,png</small> <br>
                                         @error('bukti_ktm')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>

@@ -54,7 +54,7 @@ class RegisterController extends Controller
             'nim' => ['required', 'string', 'max:11','unique:users'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
-            'bukti_ktm'=> ['required', 'image', 'max:5000','mimes:jpg,png,jpeg']
+            'bukti_ktm'=> ['required', 'image', 'max:2000','mimes:jpg,png,jpeg']
         ],[
             'nim.unique' => 'NIM sudah digunakan',
             'nim.max' => 'NIM maks 11 digit',
