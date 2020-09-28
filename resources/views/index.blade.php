@@ -29,8 +29,8 @@
                     <div class="blog-wrap-2 mb-30 zoom-hover">
                         <div class="blog-img text-center">
                             <img class="mb-4" src="{{ url('frontend/images/dpm.png') }}" alt="">
-                            <p>Fakultas Ilmu Komputer</p>
-                            <h5 class="font-weight-bold">Dewan Perwakilan Mahasiswa</h5>
+                            <p>Dewan Perwakilan Mahasiswa </p>
+                            <h5 class="font-weight-bold">Fakultas Ilmu Komputer</h5>
                         </div>
                     </div>
                 </div>
@@ -38,8 +38,8 @@
                     <div class="blog-wrap-2 mb-30 zoom-hover">
                         <div class="blog-img text-center">
                             <img class="mb-3" src="{{ url('frontend/images/BEM.jpeg') }}" alt="">
-                            <p>Fakultas Ilmu Komputer</p>
-                            <h5 class="font-weight-bold">Badan Eksekutif Mahasiswa</h5>
+                            <p>Badan Eksekutif Mahasiswa</p>
+                            <h5 class="font-weight-bold">Fakultas Ilmu Komputer</h5>
                         </div>
                     </div>
                 </div>
@@ -47,8 +47,8 @@
                     <div class="blog-wrap-2 mb-30 zoom-hover">
                         <div class="blog-img text-center">
                             <img class="mb-3" src="{{ url('frontend/images/himti.png') }}" alt="">
-                            <p>Teknik Informatika</p>
-                            <h5 class="font-weight-bold">Himpunan Mahasiswa</h5>
+                            <p>Himpunan Mahasiswa</p>
+                            <h5 class="font-weight-bold">Teknik Informatika</h5>
                         </div>
                     </div>
                 </div>
@@ -56,8 +56,8 @@
                     <div class="blog-wrap-2 mb-30 zoom-hover">
                         <div class="blog-img text-center">
                             <img src="{{ url('frontend/images/himsisfo.jpeg') }}" height="235" class="mb-3" alt="">
-                            <p>Sistem Informasi</p>
-                            <h5 class="font-weight-bold">Himpunan Mahasiswa</h5>
+                            <p>Himpunan Mahasiswa</p>
+                            <h5 class="font-weight-bold">Sistem Informasi</h5>
                         </div>
                     </div>
                 </div>
