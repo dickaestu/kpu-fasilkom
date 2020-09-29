@@ -14,8 +14,8 @@
 
 </head>
 
+<div class="preloader"></div>
 <body class="wrapper">
- <div class="preloader"></div>
     @include('includes.navbar')
     @yield('content')
 
