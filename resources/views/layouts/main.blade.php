@@ -27,7 +27,8 @@
     @stack('addon-script')
     <script>
     $(window).load(function() {
-     $('.preloader').fadeOut('slow');
+    $(window).css("overflow","hidden");
+     $(".preloader").fadeOut(1000,function(){ $(window).css("overflow","auto")} );
     });
     </script>
    
