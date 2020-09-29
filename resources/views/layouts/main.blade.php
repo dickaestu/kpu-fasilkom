@@ -14,7 +14,7 @@
 
 </head>
 
-<body class="wrapper loading">
+<body class="wrapper">
     <div class="preloader"></div>
     @include('includes.navbar')
     @yield('content')
@@ -27,10 +27,8 @@
     @stack('addon-script')
     <script>
     $(window).load(function() {
-        $(".preloader").fadeOut(1000, function() {
-             $('body').removeClass('loading');
-            });
-    //  $('.preloader').fadeOut('slow');
+      
+    $('.preloader').fadeOut('slow');
     });
     </script>
    
