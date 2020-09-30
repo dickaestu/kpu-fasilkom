@@ -84,18 +84,20 @@
    <script>
     $(document).ready(function(){
 
-    document.querySelectorAll('input[type="checkbox"]').forEach(i=>{
-      i.onclick = function(){
-        showChecked();
-      }
-    });
-
     var x = document.querySelectorAll('input[type="checkbox"]:checked').length;
 
     showChecked();
     function showChecked(){
       document.getElementById("y").innerHTML = x;
     }
+
+    document.querySelectorAll('input[type="checkbox"]').forEach(i=>{
+      i.onclick = function(){
+        showChecked();
+      }
+    });
+
+    
     
     })
     
