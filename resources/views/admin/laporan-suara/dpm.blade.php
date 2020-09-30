@@ -82,9 +82,11 @@
    <script src="{{ url('admin_assets/js/demo/datatables-demo.js') }}"></script>
 
    <script>
-    window.updateCount = function() {
+    $(document).ready(function(){
+
     var x = $(".z:checked").length;
     document.getElementById("y").innerHTML = x;
-    };
+    })
+    
     </script>
 @endpush
