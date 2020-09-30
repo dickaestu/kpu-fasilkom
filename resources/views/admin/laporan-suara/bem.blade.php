@@ -36,7 +36,7 @@
                   <thead>
                     <tr>
                         <th>No</th>
-                      <th>Nama Pemilih</th>
+                      {{-- <th>Nama Pemilih</th> --}}
                       <th>Nama Calon</th>
                       <th>Foto Calon</th>
                       <th>#</th>
@@ -47,7 +47,7 @@
                    @foreach ($items as $item)
                     <tr>
                         <td>{{ $loop->iteration }}</td>
-                      <td>{{ $item->user->name}}</td>
+                      {{-- <td>{{ $item->user->name}}</td> --}}
                       <td>{{ $item->kandidat->nama }}</td>
                       <td><img src="{{ Storage::url($item->kandidat->foto )}}" width="150" class="img-thumbnail" alt=""></td>
                       <td>
