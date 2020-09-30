@@ -50,7 +50,7 @@
                       <td>{{ $item->kandidat->nama }}</td>
                       <td><img src="{{ Storage::url($item->kandidat->foto )}}" width="150" class="img-thumbnail" alt=""></td>
                       <td>
-                        <input type="checkbox" class="z" />
+                        <input type="checkbox" class="z" onclick="updateCount()" />
                       </td>
                     </tr>
                    @endforeach
@@ -82,24 +82,9 @@
    <script src="{{ url('admin_assets/js/demo/datatables-demo.js') }}"></script>
 
    <script>
-    $(document).ready(function(){
-
-    var x = document.querySelectorAll('input[type="checkbox"]:checked').length;
-
-    showChecked();
-    function showChecked(){
-      document.getElementById("y").innerHTML = x;
-    }
-
-    document.querySelectorAll('input[type="checkbox"]').forEach(i=>{
-      i.onclick = function(){
-        showChecked();
-      }
-    });
-
-    
-    
-    })
-    
+    window.updateCount = function() {
+    var x = $(".z:checked").length;
+    document.getElementById("y").innerHTML = x;
+    };
     </script>
 @endpush
