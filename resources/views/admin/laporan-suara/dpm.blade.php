@@ -50,7 +50,7 @@
                       <td>{{ $item->kandidat->nama }}</td>
                       <td><img src="{{ Storage::url($item->kandidat->foto )}}" width="150" class="img-thumbnail" alt=""></td>
                       <td>
-                        <input type="checkbox" class="z" onclick="updateCount()" />
+                        <input type="checkbox" class="z" />
                       </td>
                     </tr>
                    @endforeach
@@ -84,7 +84,7 @@
    <script>
     $(document).ready(function(){
 
-    var x = $(".z:checked").length;
+    var x = document.querySelectorAll('input[type="checkbox"]:checked').length;
     document.getElementById("y").innerHTML = x;
     })
     
