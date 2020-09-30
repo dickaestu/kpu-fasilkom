@@ -84,8 +84,19 @@
    <script>
     $(document).ready(function(){
 
+    document.querySelectorAll('input[type="checkbox"]').forEach(i=>{
+      i.onclick = function(){
+        showChecked();
+      }
+    });
+
     var x = document.querySelectorAll('input[type="checkbox"]:checked').length;
-    document.getElementById("y").innerHTML = x;
+
+    showChecked();
+    function showChecked(){
+      document.getElementById("y").innerHTML = x;
+    }
+    
     })
     
     </script>
